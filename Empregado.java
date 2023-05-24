@@ -25,6 +25,22 @@ public class Empregado {
             }
         }
 
+    public int getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(int matricula) {
+        this.matricula = matricula;
+    }
+
+    public String getChapa() {
+        return chapa;
+    }
+
+    public void setChapa(String chapa) {
+        this.chapa = chapa;
+    }
+
     public String getNome() {
         return nome;
     }
